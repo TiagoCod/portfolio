@@ -192,10 +192,6 @@ div.formacao-container div.curso:hover{
     overflow: hidden;
     border-radius: 8px;
 }
-.link{
-    text-decoration: none;
-    color: ;
-}
 footer{
     background-color: var(--destaque);
     color: var(--texto-inverso);

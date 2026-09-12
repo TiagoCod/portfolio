@@ -171,7 +171,7 @@ div.formacao-container div.curso:hover{
 }
 #projeto-container .projeto{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 15px;
     margin-top: 15px;
     background-color: var(--fundo-principal);
@@ -208,6 +208,19 @@ footer a:hover{
 }
 
 @media  screen and (min-width: 768px) {
+    main{
+        grid-template-columns: auto 300px 1fr auto;
+    }
+    section#ficha{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        height: fit-content;
+        position: sticky;
+        top: 65px;
+    }
+    section#detalhes{
+        grid-column: 3 / 4;
+    }
     #skill-container {
         grid-template-columns: 1fr 1fr;
     }
